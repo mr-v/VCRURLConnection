@@ -88,6 +88,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		960C19881D9A905700485E8D /* Carthage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Carthage.xcconfig; path = ../../../../../private/tmp/PMHTTP/Carthage.xcconfig; sourceTree = "<group>"; };
 		B3475BAD167EFFA70044511D /* VCRRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRRecording.h; sourceTree = "<group>"; };
 		B3475BAE167EFFA80044511D /* VCRRecording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRRecording.m; sourceTree = "<group>"; };
 		B359FCDF18734EE200FA20E2 /* VCRRecordingURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRRecordingURLProtocol.h; sourceTree = "<group>"; };
@@ -240,6 +241,7 @@
 		B3B8284C167E990F00CCEC3C = {
 			isa = PBXGroup;
 			children = (
+				960C19881D9A905700485E8D /* Carthage.xcconfig */,
 				B3B4FBFB1ADA178000C997D0 /* VCRURLConnection */,
 				B3B4FC081ADA178100C997D0 /* VCRURLConnectionTests */,
 				B3FA96851BDDC284007870A4 /* VCRURLConnectionTestsOSX */,
@@ -549,6 +551,7 @@
 		};
 		B3D88C4F1BDDCB1A0001357A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960C19881D9A905700485E8D /* Carthage.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -602,6 +605,7 @@
 		};
 		B3D88C501BDDCB1A0001357A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960C19881D9A905700485E8D /* Carthage.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
