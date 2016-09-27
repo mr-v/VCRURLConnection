@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960C19581D9A69BF00485E8D /* VCR.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B82896167E9B6800CCEC3C /* VCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3D88C511BDDCB290001357A /* VCRURLConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D88C491BDDCB1A0001357A /* VCRURLConnection.framework */; };
 		B3D88C531BDDCBBB0001357A /* VCR.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B82897167E9B6800CCEC3C /* VCR.m */; };
 		B3D88C541BDDCBBB0001357A /* VCR+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DEFB751877157300D3FE16 /* VCR+NSURLSessionConfiguration.m */; };
@@ -296,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D88C5E1BDDCC1A0001357A /* VCRURLConnection.h in Headers */,
+				960C19581D9A69BF00485E8D /* VCR.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
